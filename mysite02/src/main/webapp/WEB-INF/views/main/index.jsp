@@ -11,10 +11,10 @@
 		<div id="header">
 			<h1>MySite</h1>
 			<ul>
-				<li><a href="">로그인</a><li>
-				<li><a href="">회원가입</a><li>
-				<li><a href="">회원정보수정</a><li>
-				<li><a href="">로그아웃</a><li>
+				<li><a href="<%=request.getContextPath() %>/user?a=loginfo]rm">로그인</a><li>
+				<li><a href="<%=request.getContextPath() %>/user?a=joinform">회원가입</a><li>
+				<li><a href="<%=request.getContextPath() %>/user?a=updateform">회원정보수정</a><li>
+				<li><a href="<%=request.getContextPath() %>/user?a=logout">로그아웃</a><li>
 				<li>님 안녕하세요 ^^;</li>
 			</ul>
 		</div>
@@ -35,9 +35,10 @@
 		</div>
 		<div id="navigation">
 			<ul>
-				<li><a href="">안대혁</a></li>
-				<li><a href="">방명록</a></li>
-				<li><a href="">게시판</a></li>
+				<li><a href="<%=request.getContextPath() %>">성웅</a></li>
+				<li><a href="<%=request.getContextPath() %>/guestbook">방명록</a></li>
+				<li><a href="<%=request.getContextPath() %>/board
+				">게시판</a></li>
 			</ul>
 		</div>
 		<div id="footer">
